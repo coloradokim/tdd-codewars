@@ -1,4 +1,4 @@
-let findHighandLow = (stringOfNumers) => {
+let findHighandLow = (stringOfNumbers) => {
   return stringOfNumbers
 };
 
