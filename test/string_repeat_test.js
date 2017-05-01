@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const string_repeat = require('../src/string_repeat');
+const string_repeat = require('../src/string_repeat.js');
 
 describe ('string repeat', function (){
   it('repeats the given string n times', function () {
