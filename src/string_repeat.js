@@ -1,4 +1,4 @@
-function repeatString(num, str) {
+let repeatString = (num, str) => {
   return str.repeat(num)
 }
 
