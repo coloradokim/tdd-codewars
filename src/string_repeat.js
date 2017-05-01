@@ -1,6 +1,5 @@
-function repeatStr(num, str) {
+function repeatString(num, str) {
   return str.repeat(num)
-};
+}
 
-
-module.exports = "string_repeat";
+module.exports = repeatString;
