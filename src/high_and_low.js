@@ -1,5 +1,15 @@
 let findHighandLow = (stringOfNumbers) => {
-  return stringOfNumbers
-};
+    let arr = [];
+    let result = {};
+    stringOfNumbers = stringOfNumbers.split(" ");
 
-module.exports = findHighandLow;
+    stringOfNumbers.forEach((string) => {
+        arr.push(parseInt(string))
+      });
+      
+      result.high = Math.max(...arr)
+      result.low = Math.min(...arr)
+      return `${result.high} ${result.low}`;
+    }
+
+    module.exports = findHighandLow;
