@@ -8,10 +8,10 @@ let findHighandLow = (stringOfNumbers) => {
         arr.push(parseInt(string))
       });
 
-      result.high = Math.max(...arr)
-      result.low = Math.min(...arr)
+      result.high = Math.max(...arr);
+      result.low = Math.min(...arr);
 
       return `${result.high} ${result.low}`;
-    }
+    };
 
     module.exports = findHighandLow;

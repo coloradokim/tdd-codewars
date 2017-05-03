@@ -1,2 +1,4 @@
-Test.assertEquals(disemvowel("This website is for losers LOL!"),
-  "Ths wbst s fr lsrs LL!")
+let removeVowels = (str) => {
+    return str.replace(/[aeiou]/gi, '');
+};
+module.exports = removeVowels
