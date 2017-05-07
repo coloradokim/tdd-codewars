@@ -4,8 +4,8 @@ let findComplement = (dnaStrand) => {
     'T': 'A',
     'G': 'C',
     'C': 'G'
-  }
-  let newStrand = ''
+  };
+  let newStrand = '';
   for (var i = 0; i < dnaStrand.length; i++) {
     newStrand += dna[dnaStrand[i]]
   }
