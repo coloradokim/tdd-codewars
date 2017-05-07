@@ -4,11 +4,8 @@ let determineIfDouble = (num) => {
   let firstHalf = stringyNum.slice(0, lengthOfHalf);
   let secondHalf = stringyNum.slice(lengthOfHalf);
 
-  if (firstHalf == secondHalf) {
-    return num
-  } else {
-    return num * 2
-  }
+  return (firstHalf == secondHalf) ? num : num * 2;
+
 };
 
 module.exports = determineIfDouble;
